@@ -224,7 +224,7 @@
 	</table>
 	<hr> -->
 
-	<center><h1>Approach</h1></center>
+	<!-- <center><h1>Approach</h1></center>
 
 	<table align=center width=820px>
 		<center>
@@ -242,7 +242,7 @@
 				</center>
 			</td>
 		</tr>
-	</table>
+	</table> -->
 
 	<!-- <table align=center width=850px>
 		<center>
@@ -263,12 +263,11 @@
 	</table> -->
 
 
-	<hr>
 
 	<center><h1>Results</h1></center>
 
 	<br>
-	<br>
+	
 
 	<center><h2>Mask visualization</h2></center>
 
@@ -281,6 +280,15 @@
                         </td>
                 </tr>
         </table>
+		<table align=center width=850px>
+			<center>
+				<tr>
+					<td>
+						PartGAN can discover consistent parts, which are sometimes semantically meaningful, on diverse datasets without part supervision. For example, it can separate a person into head, limbs, upper, and lower clothing parts on the DeepFashion dataset.
+					</td>
+				</tr>
+			</center>
+		</table>
 
 	<br>
 	<center><h2>Unconditional generation</h2></center>
@@ -294,6 +302,16 @@
 						</td>
 				</tr>
 		</table>
+		<table align=center width=800px>
+			<center>
+				<tr>
+					<td>
+						The images in each column share the same background, shape, and texture codes except for one part. We randomly sample three different texture codes for the remaining part to change the texture of the head (a), chest (b), and wing (c).
+					</td>
+				</tr>
+			</center>
+		</table>
+
 
 	<br>
 	<center><h2>Conditional generation</h2></center>
@@ -306,6 +324,15 @@
 								</center>
 						</td>
 				</tr>
+		</table>
+		<table align=center width=800px>
+			<center>
+				<tr>
+					<td>
+						For each sub-figure, the three real images on the left provide texture information for a specific part (chest (a), head (b), wing (c)), while the top three real images provide background, shape, and texture information for the rest of the parts.
+					</td>
+				</tr>
+			</center>
 		</table>
 
 
@@ -321,6 +348,15 @@
 						</td>
 				</tr>
 		</table>
+		<table align=center width=800px>
+			<center>
+				<tr>
+					<td>
+						PartGAN can transfer part texture from multiple reference images; e.g., (top right) car hood and body are made yellow and blue, and windows are darkened.
+					</td>
+				</tr>
+			</center>
+		</table>
 
 	<br>
 	<center><h2>Sketch to image</h2></center>
@@ -333,6 +369,15 @@
 								</center>
 						</td>
 				</tr>
+		</table>
+		<table align=center width=800px>
+			<center>
+				<tr>
+					<td>
+						In the first column, four sketch images provide shape information, the middle four real images provide texture information for each part, and the last column are the final generated images.
+					</td>
+				</tr>
+			</center>
 		</table>
 	
 
